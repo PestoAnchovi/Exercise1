@@ -133,11 +133,11 @@ void getBarcode() {
             cout << "Understood!" << endl;
         }
         else {
-            std::cout << "Invalid input. Please enter 'y' (\"yes\") or 'n' (\"no\") to proceed." << std::endl << std::endl;
-            std::cin.ignore();
-            std::cin.clear();
+            cout << "This Input is invalid. Please try again" << endl;
+            cin.ignore();
+            cin.clear();
         }
-        }
+    }
 }
 
 
